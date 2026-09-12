@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+@import 'tailwindcss';
+
+@theme inline {
+  --color-bg: #F0F8FF;
+  --color-sidebar: #E6F1FB;
+  --color-primary: #185FA5;
+  --color-primary-dark: #0e4a82;
+  --color-secondary: #85B7EB;
+  --color-secondary-light: #B5D4F4;
+  --color-heading: #042C53;
+  --color-card: #FFFFFF;
+  --color-border: #B5D4F4;
+  --color-text-secondary: #185FA5;
+  --color-muted: #6B8FA8;
+}
+
+:root {
+  font-family: 'Inter', system-ui, sans-serif;
+  background-color: #F0F8FF;
+  color: #042C53;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb {
+  background: #B5D4F4;
+  border-radius: 2px;
+}
+
+input, textarea, select {
+  outline: none;
+}
+
+input:focus, textarea:focus, select:focus {
+  border-color: #185FA5 !important;
+  box-shadow: 0 0 0 3px rgba(24, 95, 165, 0.12);
+}
