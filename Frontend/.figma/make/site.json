@@ -1,0 +1,8 @@
+{
+  "title": "Skill Swap App",
+  "description": "A platform to swap skills with others",
+  "language": "en",
+  "robots": {
+    "index": true
+  }
+}
