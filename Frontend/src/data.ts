@@ -7,7 +7,7 @@ export const currentUser: User = {
   bio: "UX designer with 6 years of experience. Passionate about teaching design principles and learning new languages. Based in Austin, TX.",
   location: "Austin, TX",
   offeredSkills: ["UI/UX Design", "Figma", "Prototyping", "Design Systems"],
-  desiredSkills: ["Python", "Machine Learning", "Spanish", "Piano"],
+  desiredSkills: ["Python", "Machine Learning", "Spanish", "Piano "],
   rating: 4.8,
   completedSwaps: 14,
 };
